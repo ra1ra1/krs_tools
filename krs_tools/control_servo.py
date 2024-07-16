@@ -111,7 +111,6 @@ class Servo(Node):
         msg = Bool()
         msg.data = self.stateMove
         self.publisher.publish(msg)
-        #self.get_logger().info(f'Published: {msg.data}')
  
 
     def krs_setPos_CMD(self, servo_id, pos):
