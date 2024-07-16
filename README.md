@@ -1,4 +1,5 @@
 # Setting
+サーボモータをUSBデバイスとして認識させるコマンド
 ```
 sudo su
 modprobe ftdi-sio
